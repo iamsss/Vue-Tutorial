@@ -6,7 +6,8 @@ new Vue({
     },
     methods: {
         greet: function(){
-            return 'Welcome';
+
+            return 'Welcome -> ' + this.name;
         }
     }
 });
