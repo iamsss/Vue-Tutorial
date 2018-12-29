@@ -3,7 +3,8 @@ new Vue({
     data: {
         name: 'Saurav Kumar',
         data: 'D1',
-        website: 'https://google.com'
+        website: 'https://google.com',
+        htmlTag:'<h1> I am header</h1>'
     },
     methods: {
         greet: function(){
