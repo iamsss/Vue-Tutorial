@@ -6,21 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>First Vue Apps</title>
     <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/vue.js"></script>
 
 </head>
 <body>
-  
-        <h1>Multiple Vue instances</h1>
-        <div id="vue-app-one">
-            <h2>{{ title }}</h2>
-            <p>{{ greet }}</p>
-        </div>
-        <div id="vue-app-two">
-            <h2>{{ title }}</h2>
-            <p>{{ greet }}</p>
-            <button v-on:click="changeTitle">Change App One Title</button>
-        </div>
+    <h1>Templates</h1>
+    <div id="vue-app-one">
+        <h1>Vue App One</h1>
+        <greeting></greeting>
+    </div>
+    <div id="vue-app-two">
+        <h1>Vue App Two</h1>
+        <greeting></greeting>
+    </div>
+    <!--<div class="test"></div>
+    <div class="test"></div> -->
 
     <script type="text/javascript" src="js/index.js"></script> 
 </body>
